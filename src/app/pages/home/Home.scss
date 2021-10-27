@@ -1,0 +1,14 @@
+.home {
+  display: flex;
+  padding-top: 80px;
+  flex: 1;
+  .nav-links {
+    flex: 0.2;
+  }
+  .feed {
+    flex: 0.5;
+  }
+  .featured-posts {
+    flex: 0.3;
+  }
+}
