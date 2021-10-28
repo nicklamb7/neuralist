@@ -6,7 +6,7 @@ import Home from './app/pages/home/Home';
 function App() {
   return (
     <div className="app">
-      <Navbar name="NeuraList" />
+      <Navbar />
       <Home />
     </div>
   );
