@@ -2,19 +2,44 @@ import React from 'react';
 import Link from '../link/Link';
 import './NavLinks.scss';
 
+const links = [{
+    title: '🏠 Home',
+    link: '/'
+  }, {
+    title: '📚 Reading List',
+    link: '/'
+  }, {
+    title: '📃 Listings',
+    link: '/'
+  }, {
+    title: '🎙 Podcasts',
+    link: '/'
+  }, {
+    title: '🎥 Videos',
+    link: '/'
+  }, {
+    title: '🏷 Tags',
+    link: '/'
+  }, {
+    title: '💡 FAQ',
+    link: '/'
+  }, {
+    title: '🧠 About',
+    link: '/'
+  }, {
+    title: '📞 Contact',
+    link: '/'
+}]
+
 function NavLinks() {
   return (
     <>
       <div class="nav-links">
-        <Link title="🏠 Home" link="/" />
-        <Link title="📚 Reading List" link="/" />
-        <Link title="📃 Listings" link="/" />
-        <Link title="🎙 Podcasts" link="/" />
-        <Link title="🎥 Videos" link="/" />
-        <Link title="🏷 Tags" link="/" />
-        <Link title="💡 FAQ" link="/" />
-        <Link title="🧠 About" link="/" />
-        <Link title="📞 Contact" link="/" />
+        {links.map(link =>
+          <Link
+            title={link.title}
+            link={link.link} />
+        )}
       </div>
     </>
   )

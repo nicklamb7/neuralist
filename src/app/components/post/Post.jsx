@@ -3,7 +3,7 @@ import './Post.scss';
 
 function Post(props) {
   return (
-    <div className="post">
+    <div className="post" key={props.objectId}>
       <div className="image-wrapper">
         <img src={props.image} alt="" />
       </div>
