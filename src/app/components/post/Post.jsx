@@ -2,8 +2,11 @@ import React from 'react';
 import './Post.scss';
 
 function Post(props) {
+  const clickHandler = () => {
+    alert("You've just clicked on an article.")
+  }
   return (
-    <div className="post" key={props.objectId}>
+    <div className="post" key={props.objectId} onClick={clickHandler}>
       <div className="image-wrapper">
         <img src={props.image} alt="" />
       </div>
