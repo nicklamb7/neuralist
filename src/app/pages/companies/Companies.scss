@@ -1,0 +1,8 @@
+.companies {
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 240px 240px;
+  list-style-type: none;
+  padding: 16px;
+}
