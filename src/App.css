@@ -2,3 +2,18 @@
   background-color: #ebebeb;
   min-height: 100vh;
 }
+
+.main {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  padding-top: 64px;
+}
+
+.nav-links {
+  flex: 0.2;
+}
+
+.pages {
+  flex: 0.8;
+}

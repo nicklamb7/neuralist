@@ -35,11 +35,13 @@ function NavLinks() {
   return (
     <>
       <div class="nav-links">
-        {links.map(link =>
-          <Link
-            title={link.title}
-            link={link.link} />
-        )}
+        <div className="nav-links__wrapper">
+          {links.map(link =>
+            <Link
+              title={link.title}
+              link={link.link} />
+          )}
+        </div>
       </div>
     </>
   )

@@ -1,5 +1,7 @@
 .nav-links {
-  margin-left: 80px;
-  // position: sticky;
-  // top: 0px;
+  &__wrapper {
+    margin-left: 80px;
+    position: fixed;
+    top: 64px;
+  }
 }
