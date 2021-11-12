@@ -9,8 +9,8 @@ const links = [{
     title: '📚 Reading List',
     link: '/'
   }, {
-    title: '📃 Listings',
-    link: '/'
+    title: '📃 Companies',
+    link: '/companies'
   }, {
     title: '🎙 Podcasts',
     link: '/'
