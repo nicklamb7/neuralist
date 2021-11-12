@@ -1,5 +1,44 @@
-.company {
+#company {
   border-radius: 12px;
   border: 1px solid #e1e1e1;
   background-color: #fff;
+  overflow: hidden;
+  height: 240px;
+  background-image: url("https://media.istockphoto.com/photos/facebook-menlo-park-campus-headquarters-picture-id610560418?k=20&m=610560418&s=170667a&w=0&h=Th04_LmtXbPURyFbbSqFCGfo6FlfEWe5THAQYgPYvSs=");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .show-name {
+    background-color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://media.istockphoto.com/photos/facebook-menlo-park-campus-headquarters-picture-id610560418?k=20&m=610560418&s=170667a&w=0&h=Th04_LmtXbPURyFbbSqFCGfo6FlfEWe5THAQYgPYvSs=");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    // transition: 1s ;
+    color: #fff;
+    h4 {
+      position: absolute;
+      top: 16px;
+      left: 16px;
+    }
+    .details {
+      display: none;
+    }
+  }
+  .show-details {
+    background-color: #00000097;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    h1, h4 {
+      display: none;
+    }
+  }
 }
