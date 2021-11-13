@@ -55,7 +55,7 @@ export function MyVerticallyCenteredModal(props) {
         </p>
       </Modal.Body>
       <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
+        <h1>Footer</h1>
       </Modal.Footer>
     </Modal>
   );
