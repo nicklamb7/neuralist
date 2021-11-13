@@ -34,7 +34,7 @@ const links = [{
 function NavLinks() {
   return (
     <>
-      <div class="nav-links">
+      <div className="nav-links">
         <div className="nav-links__wrapper">
           {links.map(link =>
             <Link

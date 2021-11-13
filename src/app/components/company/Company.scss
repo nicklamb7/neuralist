@@ -4,13 +4,10 @@
   background-color: #fff;
   overflow: hidden;
   height: 240px;
-  background-image: url("https://media.istockphoto.com/photos/facebook-menlo-park-campus-headquarters-picture-id610560418?k=20&m=610560418&s=170667a&w=0&h=Th04_LmtXbPURyFbbSqFCGfo6FlfEWe5THAQYgPYvSs=");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   .show-name {
     background-color: white;
     height: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,7 +16,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    // transition: 1s ;
     color: #fff;
     h4 {
       position: absolute;
@@ -29,16 +25,38 @@
     .details {
       display: none;
     }
-  }
-  .show-details {
-    background-color: #00000097;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    h1, h4 {
-      display: none;
+    &:hover {
+      background-color: #00000097;
+      background-image:
+        linear-gradient(#00000097, #00000097),
+        url("https://media.istockphoto.com/photos/facebook-menlo-park-campus-headquarters-picture-id610560418?k=20&m=610560418&s=170667a&w=0&h=Th04_LmtXbPURyFbbSqFCGfo6FlfEWe5THAQYgPYvSs=");
+      position: relative;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      cursor: pointer;
+      h5 {
+        position: absolute;
+        top: 16px;
+        left: 16px;
+      }
+      h1, h4 {
+        display: none;
+      }
+      p {
+        margin-bottom: 8px;
+      }
+      .details {
+        display: block;
+      }
     }
   }
+
+}
+
+.company-details {
+  width: 100%;
+  height: 100%;
 }
