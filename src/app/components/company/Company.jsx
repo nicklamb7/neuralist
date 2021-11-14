@@ -55,7 +55,7 @@ export function MyVerticallyCenteredModal(props) {
         </p>
       </Modal.Body>
       <Modal.Footer>
-        <h1>Footer</h1>
+        <p>This is some additional info</h1>
       </Modal.Footer>
     </Modal>
   );
