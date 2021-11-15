@@ -64,8 +64,8 @@ export function MyVerticallyCenteredModal(props) {
 function CompanyDetails() {
   return (
     <div className="company-details">
-      <p>Overview: 99/100</p>
-      <p>Overview: 99/100</p>
+      <p>Persuasiveness: 99/100</p>
+      <p>Positive: 99/100</p>
       <p>Overview: 99/100</p>
       <p>Overview: 99/100</p>
       <p>Overview: 99/100</p>
